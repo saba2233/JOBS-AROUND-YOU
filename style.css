@@ -4,7 +4,7 @@ start
   margin: 0;
   font-family: sans-serif;
 }
-.menu-bar
+.menu-bar      /*navbar er clr*/
 {
   background-image: linear-gradient(to right, #6db9ef, #7ce08a);
 }
@@ -14,11 +14,11 @@ start
   color: #fff !important;
   margin: 2px;
 }
-.navbar-nav
+.navbar-nav    /*menu gula right a*/
 {
   text-align: right;
 }
-.menu-bar .navbar-toggler
+.menu-bar .navbar-toggler   /*menu allign*/
 {
   padding-right: 0;
   outline: none;
@@ -27,12 +27,12 @@ start
 .banner
 {
   height: 80vh;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/myjob.1910x1000.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/myjob.1910x1000.jpg);   /*background work*/
   background-size: cover;
   background-position: center;
   color: #fff;
 }
-.banner h1
+.banner h1    /*background title*/
 {
   padding-top: 140px;
   font-size: 50px;
@@ -70,12 +70,12 @@ start
   padding-top: 50px;
   padding-bottom: 100px;
 }
-#recruiters h3
+#recruiters h3    /*recruiters heading*/
 {
   text-align: center;
   padding-bottom: 40px;
 }
-h3::before
+h3::before    /*heading icon*/
 {
   content: '';
   background-image: linear-gradient(to right, #6db9ef, #7ce08a);
@@ -100,7 +100,7 @@ h3::before
 }
 .company-details
 {
-  box-shadow: 0 2px 70px 0 rgba(110,130,208,.18);
+  box-shadow: 0 2px 70px 0 rgba(110,130,208,.18);  /*shadow korar jnno*/
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -110,13 +110,13 @@ h3::before
   padding: 10px 20px;
   border-radius: 5px;
 }
-.job-update .fa
+.job-update .fa   /*icon and icon et color*/
 {
   margin-top: 5px;
   margin-right: 10px;
   color: #77d1b1;
 }
-.job-update small
+.job-update small  /*alada kore shadow*/
 {
   background: #efefef;
   padding: 1px 5px;
@@ -132,7 +132,7 @@ h3::before
   color: #b6bed2;
   float: right;
 }
-.apply-btn
+.apply-btn   /*ai area er back clr change*/
 {
   height: 40px;
   background-image: linear-gradient(to right, #6db9ef, #7ce08a);
@@ -179,7 +179,7 @@ h3::before
 {
   margin-bottom: 30px;
 }
-.stats-box
+.stats-box   /*alada alada box a*/
 {
   padding: 30px;
   border-radius: 10px;

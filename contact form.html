@@ -1,0 +1,82 @@
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+      <div class="w-100">
+        <h2 class="mb-5">Contact with me...</h2>
+    <section class="section element-animate">
+	 <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     <div id="add-new-div">
+        <div class="row" >
+            <div class="col-lbl">
+                <label for="name" class="input-lbl"> Name:</label>
+            </div>
+            <div class="col-txt">
+                <input type="text" id="name" class="input-txt" name="name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lbl">
+                <label for="address" class="input-lbl"> Email</label>
+            </div>
+            <div class="col-txt">
+                <input type="text" id="address" class="input-txt" name="address">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lbl">
+                <label for="rating" class="input-lbl"> Write Message</label>
+            </div>
+			 <div class="col-txt">
+                <input type="text" id="rating" class="input-txt" name="rating">
+            </div>
+            
+        </div>
+
+        
+
+        <div class="row" id="submit-div" >
+            <button class="add-new-reset"  style="float:right" onclick="addPlace()"> Submit</button>
+            <button class="add-new-reset"   style="float:right"  onclick="resetForm()"> Reset</button>
+			 
+        </div>
+		<div>
+            <a class="back" href="#contact" onclick="showTable()">Back to Message list</a>
+        </div> 
+
+
+        
+    </div>
+	
+	</section>
+
+    <!-- contact table -->
+
+    <div id="tour-places-div">
+        <table class="tablePlace" id="table-places">
+            <thead>
+                <tr>
+                    <th class="name-col name-col-header"><font align="center">NAME</font></th>
+                    <th class="address-col">Messages</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="table-places-tbody">
+                
+            </tbody>
+
+        </table>
+        <input type="button" value="back to contact page" class="backButton" onclick="BackToaddPlace()">
+    </div>
+      </div>
+    </section>
+
+  </div>
